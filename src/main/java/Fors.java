@@ -10,8 +10,8 @@ public class Fors {
         //***************************************
         // Get this to count to 10
         //***************************************
-        int count = 1;
-        for (int i = 0;i < count;i++){
+        int count = 10;
+        for (int i = 1;i <= count;i++){
             System.out.println(i);
         }
 
@@ -35,7 +35,7 @@ public class Fors {
                 myNewList.add(i+j);
             }
         }
-
+System.out.println("Number of items in myNewList:" + myNewList.size());
 
     }
 

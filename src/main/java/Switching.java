@@ -6,7 +6,7 @@ public class Switching {
         // Update the switch statement to take a string that represents the month and add in the other months
         // What happens if you supply something that isn't a valid month, is there a way to deal with it?
         //***************************************
-        int month = 1;
+        int month = 3;
         String forecast = "";
         switch (month) {
             case 1:
@@ -14,6 +14,9 @@ public class Switching {
                 break;
             case 2:
                 forecast = "Less snow";
+                break;
+            default:
+                forecast = "Unknown forecast" ;
                 break;
         }
         System.out.println(forecast);
